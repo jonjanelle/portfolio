@@ -1,0 +1,31 @@
+<div class="content-panel" id="resume-panel">
+  <div class="col-12 section-title text-shadow-lightest mb-4">Experience and General Info</div>
+  <div class="row mb-5">
+    <div *ngFor="let link of resumeLinks" class="col">
+      <div class="resume-icon-container">
+        <a href="{{link.link}}" target="_blank" class="resume-icon-link" title="Open {{link.name}}">
+          <div class="section-title text-shadow-lightest">{{ link.name }}</div>
+          <i [ngClass]="link.icon" class="resume-icon fa" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12 section-title text-shadow-lightest">Languages and Tools</div>
+    <div class="col-12">
+      I've worked with many programming languages, frameworks, and design patterns over the years. <br/>
+      My current focuses are C#, Java, and Angular, but I'm always interested in trying new things!
+    </div>
+    <div class="col-12 mt-4 d-flex flex-wrap justify-content-center">
+      <ng-container *ngIf="!isLoading">
+        <div class="p-3" *ngFor="let experienceIcon of experienceIcons">
+          <div class="skill">
+            <i [ngClass]="experienceIcon.icon"></i>
+            <p>{{ experienceIcon.name }}</p>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+.divider-label {
+  background-color: rgba(0,0,0,.4);
+  color: #f7f7f7;
+  padding: 1em;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  z-index: 1;
+}
+
+.divider-image-1 {
+  overflow: hidden;
+  opacity: 0.6;
+  background-image: url('../assets/images/img2.jpg');
+  min-height: 350px;
+  background-position-y: bottom;
+}
+
+.divider-image-2 {
+  overflow: hidden;
+  opacity: 0.6;
+  background-image: url('../assets/images/img3.jpg');
+  min-height: 350px;
+  background-position-y: center;
+}

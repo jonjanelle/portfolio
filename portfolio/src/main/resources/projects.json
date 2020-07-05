@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Maine Food Finder",
+    "link": "https://pantries.openmaine.org/",
+    "linkText": "Maine Food Finder",
+    "github": "https://github.com/OpenMaine/covid19-foodmap",
+    "skills": "Javascript, mapping",
+    "image": "assets/images/food-finder.PNG",
+    "imageAlt": "Maine Food Finder",
+    "description": "A project done with OpenMaine, a Code for America brigade, to provide information about when and where food pickups are available during COVID-19 epidemic.",
+    "isActive": true
+  },
+  {
+    "title": "App Challenge Resources",
+    "link": "https://maine-app-challenge.herokuapp.com/",
+    "linkText": "App Challenge Resources",
+    "github": "https://github.com/jonjanelle/maine-app-challenge-ui",
+    "skills": "Angular 6, Ruby",
+    "image": "assets/images/app-challenge.PNG",
+    "imageAlt": "Maine Food Finder",
+    "description": "Created as a resource for students competing in a mobile application contest. This project is no longer maintained.",
+    "isActive": false
+  },
+  {
+    "title": "US Baby Names API",
+    "link": "https://www.getpostman.com/collections/d1f0be6343f9908f51e5",
+    "linkText": "Postman testing collection",
+    "github": "https://github.com/jonjanelle/BabyNamesApi/",
+    "skills": "C#/.NET Core 3, Angular 8",
+    "image": "assets/images/babynamesapi.png",
+    "imageAlt": "Baby Names API",
+    "description": "An API created to help explore trends in US baby names over time. Neither the API or UI are complete yet, but development is still active.",
+    "isActive": true
+  },
+  {
+    "title": "Math Team Trainer",
+    "link": null,
+    "linkText": "Math Team Trainer",
+    "github": "https://github.com/OpenMaine/covid19-foodmap",
+    "skills": "Laravel, Javascript",
+    "image": "assets/images/mtt1.PNG",
+    "imageAlt": "Math Team Trainer",
+    "description": "Prototype online platform for math contest preparation. Users can track their progress, comment on problems, and compete for top spots on the leaderboard",
+    "isActive": false
+  },
+  {
+    "title": "Filler Content Generator",
+    "link": null,
+    "linkText": "Not currently deployed",
+    "github": "https://github.com/jonjanelle/DWA-A3",
+    "skills": "Lavavel, Javascript",
+    "image": "assets/images/fillergen1.PNG",
+    "imageAlt": "Filler Content Generator",
+    "description": "Randomized filler content generator. Options include Lorem Ipsum text, color palettes, and data",
+    "isActive": false
+  },
+  {
+    "title": "Fractal Explorer",
+    "link": "http://fractalexplorer.s3-website.us-east-2.amazonaws.com",
+    "linkText": "Fractal Explorer",
+    "github": "https://github.com/jonjanelle/FractalExplorer",
+    "skills": "Javascript, recursive drawing",
+    "image": "assets/images/fractal1.png",
+    "imageAlt": "Fractal Image",
+    "description": "Mathematical pattens created with the js canvas. A custom html templating system is used to build the source",
+    "isActive": false
+  },
+  {
+    "title": "Boston Jazz Gigs",
+    "link": null,
+    "linkText": "Not currently deployed",
+    "github": "https://github.com/jonjanelle/BostonJazzGigs",
+    "skills": "Ruby, Javascript",
+    "image": "assets/images/bjg.PNG",
+    "imageAlt": "Boston Jazz Gigs",
+    "description": "Created for a jazz musician group as a marketing and event inquiry platform. Includes a GUI content editing tool, support for music sample uploads and playback, and contact forms",
+    "isActive": false
+  },
+  {
+    "title": "URL Shortener",
+    "link": null,
+    "linkText": "Shorten",
+    "github": "https://github.com/jonjanelle/link-shorten",
+    "skills": "Laravel",
+    "image": "assets/images/shorten1.PNG",
+    "imageAlt": "URL Shortener",
+    "description": "A tool for creating URL aliases in a base-62 encoding",
+    "isActive": false
+  },
+  {
+    "title": "Boggle Solver",
+    "link": "http://boggle-env.eba-pqsaafyn.ca-central-1.elasticbeanstalk.com/",
+    "linkText": "Boggle Solver",
+    "github": "https://github.com/jonjanelle/Boggle",
+    "skills": "PHP, HTML, CSS",
+    "image": "assets/images/boggle1.png",
+    "imageAlt": "Boggle Solver",
+    "description": "A simple word finder for randomly generated legal Boggle boards.",
+    "isActive": false
+  }
+]

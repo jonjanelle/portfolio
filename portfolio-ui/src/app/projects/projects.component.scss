@@ -1,0 +1,75 @@
+.slide-down-div {
+  display: none;
+  width: 92%;
+  height: 100%;
+  margin: 0 4% 0 4%;
+  padding: 1em .5em 1em .5em;
+  background-color: rgba(0,0,0,.75);
+  position: absolute;
+  z-index: 2;
+}
+
+.slide-down-div div {
+  color: #FFF;
+}
+.slide-down-div a {
+  color: #FFF;
+}
+
+.project-box {
+  position: relative;
+  overflow: hidden;
+  background-color: #FFF;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 1em;
+  margin-bottom: 10px;
+  min-height: 150px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: box-shadow .5s ease-in-out;
+}
+
+.project-box:hover {
+  -webkit-box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
+  -moz-box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
+  box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
+  cursor: pointer;
+}
+
+.project-box p {
+  position: relative;
+}
+
+.project-box a {
+  color: #2DF;
+  font-weight: bold;
+}
+
+.project-box img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  z-index: 1;
+  transition: transform .5s ease-in;
+}
+
+.project-demo-link {
+  font-weight: 500;
+}
+
+.proj-label {
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  vertical-align: bottom;
+  line-height: 1.2em;
+  letter-spacing: 5px;
+}
+
+.green {
+  color: #00FF00;
+}

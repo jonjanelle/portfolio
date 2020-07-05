@@ -1,0 +1,53 @@
+$cyan: #60daaa;
+$yellow: #fbca67;
+$orange: #ff8a30;
+$red: #f45e61;
+$purple: #6477b9;
+$blue: #0eb7da;
+
+#resume-panel {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height: 30vh;
+}
+
+.resume-icon-container {
+  border: 1px solid lightgrey;
+  text-align: center;
+  padding: 8px;
+  .resume-icon {
+    font-size: 3.5rem;
+    text-decoration: none;
+  }
+  .resume-icon-link {
+    text-decoration: none;
+  }
+  border-radius: 4px;
+  transition: 0.4s ease-in-out;
+  padding: 1rem;
+  
+  &:hover {
+    background-color: ivory;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+  }
+
+}
+
+.skill {
+  transition: transform 0.75s ease-in-out;
+}
+.skill:hover {
+  transform: rotate(360deg);
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: .8rem;
+  }
+  .resume-icon {
+    font-size: .8rem;
+    text-decoration: none;
+  }
+
+}

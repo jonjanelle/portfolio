@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+/*
+* Text sizes and colors
+*/
+.text-smaller   { font-size: 0.667em  !important; }
+.text-small   { font-size: 0.85em  !important; }
+.text-base    { font-size: 1em      !important; }
+.text-medium  { font-size: 1.25em   !important; }
+.text-large   { font-size: 1.5em    !important; }
+.text-larger   { font-size: 1.75em    !important; }
+.text-xl      { font-size: 2.25em   !important; }
+.text-xxl     { font-size: 3.375em  !important; }
+.text-huge    { font-size: 5.063em  !important; }
+
+.text-shadow-dark   { text-shadow: 2px 2px 10px #000000 !important; }
+.text-shadow-light  { text-shadow: 1px 1px 10px #666666 !important; }
+.text-shadow-lightest  { text-shadow: 1px 1px 4px #AAAAAA !important; }
+
+.text-color-white, .text-color-white p   { color: #FFF !important; }
+.text-color-light   { color: #CCC !important; }
+.text-color-medium  { color: #AAA !important; }
+.text-color-dark    { color: #777 !important; }
+.text-color-darker  { color: #555 !important; }
+.text-color-darkest { color: #333 !important; }
+.text-color-black   { color: #000 !important; }
+
+/*
+* Shared styles
+*/
+.mb-sm {
+  margin-bottom: .5em;
+}
+
+.section-title {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font: 2em sans-serif;
+  font-weight: bold;
+  color: #446;
+}
+
+i {
+  margin: 0 auto;
+  font-size: 3em;
+}
+
+.col-xs-9 {
+  text-align: left;
+}
+
+.row-centered {
+  margin: 0 auto;
+  text-align:center;
+  height: auto;
+}
+
+.justify-r {
+  float: left;
+  text-align: right;
+}
+
+.justify-l {
+  text-align: left;
+}
+
+.top-margin-lg {
+  margin-top: 2em;
+}
+
+
+
+/*
+ * Section panel styles
+ */
+.content-panel {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  height: auto;
+  padding: 3em 2em 2em 2em;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+
+
+#credits {
+  width: 100%;
+  text-align: right;
+  background-color: black;
+  color: white;
+  padding: 0;
+  padding-right: 2em;
+  font-style: italic;
+}
+
+#credits > div {
+  float: left;
+}
+

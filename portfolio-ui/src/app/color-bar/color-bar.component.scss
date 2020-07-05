@@ -1,0 +1,17 @@
+.divider-2 {
+  overflow: hidden;
+  opacity: 0.7;
+  min-height: 200px;
+  background-position-y: center;
+  
+  #color-container {
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    width: 100vw;
+    height: 200px;
+    color: white;
+    z-index: 100;
+    opacity: 0.85;
+  }
+}

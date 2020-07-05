@@ -1,0 +1,48 @@
+<div class="content-panel" id="project-panel">
+  <div class="section-title text-shadow-lightest">Sample Projects</div>
+
+  <div *ngIf="!isLoading" class="row">
+    <ng-container *ngFor="let project of projects">
+      <div class="col-md-4 col-sm-6">
+        <div class="proj-label">{{ project.title }}</div>
+        <div class="project-demo-link">
+          <a *ngIf="project.link" href="{{project.link}}" target="_blank">
+            <i class="fa fa-caret-square-o-right" aria-hidden="true"></i> View live demo
+          </a>
+          <div *ngIf="!project.link">Not currently deployed</div>
+        </div>
+        <div class="project-box">
+          <div class="slide-down-div">
+            <div class="mb-1">
+              <a href="{{project.github}}" target="_blank">
+                <i class="fa fa-code" aria-hidden="true"></i> View code
+              </a>
+            </div>
+            <span class="green">{{ project.description }}</span>
+          </div>
+          <img src="{{ project.image }}" alt="{{ project.imageAlt }}" />
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <div class="row top-margin-lg">
+    <div class="section-title text-shadow-lightest col-12">
+      Other Stuff
+    </div>
+    <div class="mt-2 col-12">
+      I've recently become involved with <a href="https://openmaine.org/" target="_blank">OpenMaine</a>, 
+      a Code for America Brigade. Check them out if you're interested in starting or contributing to civic projects in Maine!
+    </div>
+    <div class="mt-4 col-12">
+      Mathematics and puzzles have long been a hobby of mine. <br/>
+      I'm intermittently active in several coding puzzle communities including
+      <a href="https://projecteuler.net" target="_blank">Project Euler</a>,
+      <a href="https://www.hackerrank.com/jonjanelle1" target="_blank">HackerRank</a>, and
+      <a href="https://codefights.com/profile/figlet_newton" target="_blank">CodeSignal</a>.
+      <div>
+        You can find some of my Project Euler solutions
+        <a href="https://github.com/jonjanelle/project-euler" target="_blank">here</a>.
+      </div>
+    </div>
+  </div>
+</div>
