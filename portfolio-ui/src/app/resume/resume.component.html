@@ -4,7 +4,7 @@
     <div *ngFor="let link of resumeLinks" class="col">
       <div class="resume-icon-container">
         <a href="{{link.link}}" target="_blank" class="resume-icon-link" title="Open {{link.name}}">
-          <div class="section-title text-shadow-lightest">{{ link.name }}</div>
+          <div class="resume-link-title text-shadow-lightest">{{ link.name }}</div>
           <i [ngClass]="link.icon" class="resume-icon fa" aria-hidden="true"></i>
         </a>
       </div>

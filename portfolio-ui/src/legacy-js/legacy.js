@@ -24,19 +24,6 @@ $(document).ready(function(){
     });
   });
 
-  /*
-   * Setup sliding panel effect for project boxes on mouse enter/leave
-   */
-  $(".project-box").mouseenter(function() {
-      jQuery(this).children("div").slideDown();
-      $(this).children( "img" ).css('transform', 'scale(1.5)');
-  });
-
-  $(".project-box").mouseleave(function() {
-      jQuery(this).children("div").slideUp();
-      $(this).children( "img" ).css('transform', 'scale(1)');
-  });
-
   //close nav menu on click outside
   $("body").click(function(event) {
        if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible") ) {
