@@ -7,30 +7,27 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   font-family: Raleway, sans-serif;
   background-color: black;
+  .navbar-toggler {
+    color: #CCC;
+    font-size: 16px;
+    &:hover {
+      color: white; 
+    }
+  }
+
+  .navbar-brand {
+    img {
+      border-radius: 6px;
+      margin-left: 4px;
+    }
+  }
 }
 
-.navbar-custom .navbar-toggle {
-  color: #999;
-  font-size: 12px;
-}
-
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:active {
-  color: white;
-}
-.navbar-custom .navbar-brand {
-  display: none;
-}
-.navbar-toggle .icon-bar {
-  background-color: #fff;
-}
 
 .navbar-custom a {
   color: rgba(0, 0, 210, 0.6);
 }
 .navbar-custom .nav li a {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
@@ -59,8 +56,6 @@
     border-bottom: none;
     letter-spacing: 1px;
     background-color: transparent;
-    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.top-nav-collapse {
@@ -77,23 +72,16 @@
   .navbar-custom.top-nav-collapse .nav li a:hover {
     color: rgba(255, 255, 255, 0.8);
   }
+
 }
 
 @media (max-width: 767px) {
-  .navbar-custom a {
-    color: rgb(180, 180, 180);
-  }
-  .navbar-custom .nav li a:hover {
-    color: #fff;
-  }
-  .navbar-custom .nav li.active a {
-    color: white;
-  }
-  .navbar-custom {
-    display: inline;
-  }
-
-  .navbar-custom .nav li.active a:hover {
-    color: #ccc;
-  }
+  .navbar-custom{
+    .nav-link {
+      color: rgb(200, 200, 200);
+      &:hover {
+        color: white !important;
+      }
+    }
+  } 
 }
