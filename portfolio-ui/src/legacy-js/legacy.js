@@ -26,8 +26,8 @@ $(document).ready(function(){
 
   //close nav menu on click outside
   $("body").click(function(event) {
-       if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible") ) {
-          $('.navbar-collapse').collapse('toggle');
+       if ($("#navbar-collapse").is(":visible") && $(".navbar-toggler").is(":visible") ) {
+          $('#navbar-collapse').collapse('toggle');
       }
   });
 
